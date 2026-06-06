@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:black_oak_bark"
+  },
+  "result": {
+    "id": "arbor_processing:black_oak_bark_powder",
+    "count": 1
+  }
+}

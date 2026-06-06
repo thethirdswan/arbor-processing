@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/ironwood"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "id": "afc:wood/stripped_wood/ironwood"
+    },
+    {
+      "id": "arbor_processing:ironwood_bark"
+    }
+  ]
+}

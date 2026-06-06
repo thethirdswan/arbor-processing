@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/log/gum_arabic"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "tfc:wood/support/acacia"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ],
+  "stripped": {
+    "item": "tfc:wood/stripped_log/acacia"
+  },
+  "strippingSecondaries": [
+    {
+      "item": "arbor_processing:gum_arabic_bark"
+    }
+  ]
+}

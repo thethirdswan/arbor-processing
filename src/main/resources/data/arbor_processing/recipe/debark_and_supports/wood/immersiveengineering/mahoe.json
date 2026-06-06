@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/wood/mahoe"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "afc:wood/support/mahoe"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ],
+  "stripped": {
+    "item": "afc:wood/stripped_wood/mahoe"
+  },
+  "strippingSecondaries": [
+    {
+      "item": "arbor_processing:mahoe_bark"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:baobab_bark"
+  },
+  "result": {
+    "id": "arbor_processing:baobab_bark_powder",
+    "count": 1
+  }
+}

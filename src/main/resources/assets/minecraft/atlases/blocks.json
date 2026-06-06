@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "type": "neoforge:namespaced_directory",
+      "namespace": "arbor_processing",
+      "prefix": "arbor_processing",
+      "source": "textures/bark"
+    },
+    {
+      "type": "neoforge:namespaced_directory",
+      "namespace": "arbor_processing",
+      "prefix": "arbor_processing",
+      "source": "textures/bark_powder"
+    }
+  ]
+}

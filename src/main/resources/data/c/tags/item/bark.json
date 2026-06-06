@@ -1,0 +1,25 @@
+{
+  "values": [
+    "arbor_processing:redcedar_bark",
+    "arbor_processing:mahogany_bark",
+    "arbor_processing:poplar_bark",
+    "arbor_processing:ironwood_bark",
+    "arbor_processing:fig_bark",
+    "arbor_processing:eucalyptus_bark",
+    "arbor_processing:mahoe_bark",
+    "arbor_processing:kauri_bark",
+    "arbor_processing:rubber_fig_bark",
+    "arbor_processing:tualang_bark",
+    "arbor_processing:teak_bark",
+    "arbor_processing:cypress_bark",
+    "arbor_processing:gum_arabic_bark",
+    "arbor_processing:beech_bark",
+    "arbor_processing:rainbow_eucalyptus_bark",
+    "arbor_processing:baobab_bark",
+    "arbor_processing:black_oak_bark",
+    "arbor_processing:ginkgo_bark",
+    "arbor_processing:hevea_bark",
+    "arbor_processing:ipe_bark",
+    "arbor_processing:araucaria_bark"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "tag": "c:tools/saw"
+  },
+  "block_in": {
+    "blocks": [
+      "afc:wood/stripped_log/tualang",
+      "afc:wood/stripped_wood/tualang"
+    ]
+  },
+  "post": [
+    "drop tfc_lumberjack:sawdust /.5",
+    "drop afc:wood/support/tualang /.99",
+    "drop afc:wood/support/tualang /.5/hide",
+    "place minecraft:air /.5/hide",
+    "damage_item",
+    "run 'particle minecraft:ash ~ ~0.2 ~ 0.1 0.1 0.1 0 30' /hide",
+    "run 'playsound minecraft:item.axe.strip' /hide",
+    "add_item_cooldown 1"
+  ]
+}

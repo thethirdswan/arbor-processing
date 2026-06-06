@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:gum_arabic_bark"
+  },
+  "result": {
+    "id": "arbor_processing:gum_arabic_bark_powder",
+    "count": 1
+  }
+}

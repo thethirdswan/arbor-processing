@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arbor_processing:item/bark_powder/araucaria"
+  }
+}

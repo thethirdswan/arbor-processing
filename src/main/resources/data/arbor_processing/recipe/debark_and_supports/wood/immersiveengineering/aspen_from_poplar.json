@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/wood/poplar"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "tfc:wood/support/aspen"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ],
+  "stripped": {
+    "item": "tfc:wood/stripped_wood/aspen"
+  },
+  "strippingSecondaries": [
+    {
+      "item": "arbor_processing:poplar_bark"
+    }
+  ]
+}

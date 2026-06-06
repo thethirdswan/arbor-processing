@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/ipe"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "afc:wood/stripped_wood/ipe"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "arbor_processing:ipe_bark"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

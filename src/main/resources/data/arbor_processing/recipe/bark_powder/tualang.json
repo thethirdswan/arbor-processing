@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:tualang_bark"
+  },
+  "result": {
+    "id": "arbor_processing:tualang_bark_powder",
+    "count": 1
+  }
+}

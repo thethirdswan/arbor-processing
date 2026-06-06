@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/wood/rubber_fig"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "afc:wood/support/fig"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ],
+  "stripped": {
+    "item": "afc:wood/stripped_wood/fig"
+  },
+  "strippingSecondaries": [
+    {
+      "item": "arbor_processing:rubber_fig_bark"
+    }
+  ]
+}

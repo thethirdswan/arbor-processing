@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/log/mahogany"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "afc:wood/support/mahogany"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "item": "tfc_lumberjack:sawdust"
+    },
+    {
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ],
+  "stripped": {
+    "item": "afc:wood/stripped_log/mahogany"
+  },
+  "strippingSecondaries": [
+    {
+      "item": "arbor_processing:mahogany_bark"
+    }
+  ]
+}
