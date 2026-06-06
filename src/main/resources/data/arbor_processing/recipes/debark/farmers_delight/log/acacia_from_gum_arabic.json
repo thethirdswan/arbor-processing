@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/log/gum_arabic"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:wood/stripped_log/acacia"
+    },
+    {
+      "item": "arbor_processing:gum_arabic_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

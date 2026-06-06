@@ -1,0 +1,23 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/eucalyptus"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "afc:wood/stripped_wood/eucalyptus"
+    },
+    {
+      "item": "arbor_processing:eucalyptus_bark"
+    }
+  ]
+}

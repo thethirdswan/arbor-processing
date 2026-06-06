@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/log/teak"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_log/teak"
+    },
+    {
+      "item": "arbor_processing:teak_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

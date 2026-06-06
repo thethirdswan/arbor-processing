@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:fig_bark"
+  },
+  "result": {
+    "item": "arbor_processing:fig_bark_powder",
+    "count": 1
+  }
+}

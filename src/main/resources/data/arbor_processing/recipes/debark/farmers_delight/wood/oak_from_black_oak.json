@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/black_oak"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:wood/stripped_wood/oak"
+    },
+    {
+      "item": "arbor_processing:black_oak_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

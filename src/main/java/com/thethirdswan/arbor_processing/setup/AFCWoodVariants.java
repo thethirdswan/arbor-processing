@@ -5,7 +5,6 @@ import net.minecraft.resources.ResourceLocation;
 public enum AFCWoodVariants {
     RAINBOW_EUCALYPTUS("afc", "eucalyptus"),
     BLACK_OAK("tfc", "oak"),
-    KAURI("afc", "araucaria"),
     POPLAR("tfc", "aspen"),
     GUM_ARABIC("tfc", "acacia"),
     REDCEDAR("afc", "cypress"),

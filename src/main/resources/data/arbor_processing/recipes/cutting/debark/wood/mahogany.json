@@ -1,0 +1,23 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/mahogany"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "afc:wood/stripped_wood/mahogany"
+    },
+    {
+      "item": "arbor_processing:mahogany_bark"
+    }
+  ]
+}

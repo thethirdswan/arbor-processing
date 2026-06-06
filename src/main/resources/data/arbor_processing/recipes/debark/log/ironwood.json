@@ -1,0 +1,55 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "tag": "tfc:axes"
+  },
+  "block_in": "afc:wood/log/ironwood",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "arbor_processing:ironwood_bark",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 1
+        }
+      ],
+      "count": 1
+    },
+    {
+      "type": "drop_item",
+      "item": "arbor_processing:ironwood_bark",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.5
+        }
+      ],
+      "count": 1
+    },
+    {
+      "type": "place",
+      "block": "afc:wood/stripped_log/ironwood",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "type": "damage_item"
+    },
+    {
+      "type": "add_item_cooldown",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 1
+        }
+      ],
+      "s": 1
+    }
+  ],
+  "max_repeats": 3
+}

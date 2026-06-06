@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/rainbow_eucalyptus"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_wood/eucalyptus"
+    },
+    {
+      "item": "arbor_processing:rainbow_eucalyptus_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

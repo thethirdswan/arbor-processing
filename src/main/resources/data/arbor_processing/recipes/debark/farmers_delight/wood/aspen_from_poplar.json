@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/poplar"
+    }
+  ],
+  "result": [
+    {
+      "item": "tfc:wood/stripped_wood/aspen"
+    },
+    {
+      "item": "arbor_processing:poplar_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

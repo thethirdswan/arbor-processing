@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "arbor_processing:black_oak_bark"
+    }
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "item": "arbor_processing:black_oak_bark_powder"
+    }
+  ]
+}

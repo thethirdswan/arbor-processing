@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:rainbow_eucalyptus_bark"
+  },
+  "result": {
+    "item": "arbor_processing:rainbow_eucalyptus_bark_powder",
+    "count": 1
+  }
+}

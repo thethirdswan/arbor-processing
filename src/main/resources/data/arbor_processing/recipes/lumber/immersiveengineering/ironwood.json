@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/support/ironwood"
+  },
+  "result": {
+    "count": 6,
+    "item": "afc:wood/lumber/ironwood"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    },
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/log/rainbow_eucalyptus"
+  },
+  "result": {
+    "count": 4,
+    "item": "afc:wood/support/eucalyptus"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "arbor_processing:rainbow_eucalyptus_bark"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "afc:wood/stripped_log/eucalyptus"
+  }
+}

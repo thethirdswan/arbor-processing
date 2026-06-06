@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/support/tualang"
+  },
+  "result": {
+    "count": 6,
+    "item": "afc:wood/lumber/tualang"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    },
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    }
+  ]
+}

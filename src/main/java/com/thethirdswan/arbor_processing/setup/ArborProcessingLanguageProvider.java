@@ -2,7 +2,7 @@ package com.thethirdswan.arbor_processing.setup;
 
 import com.thethirdswan.arbor_processing.ArborProcessing;
 import net.minecraft.data.PackOutput;
-import net.neoforged.neoforge.common.data.LanguageProvider;
+import net.minecraftforge.common.data.LanguageProvider;
 
 import java.util.List;
 

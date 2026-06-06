@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/support/ipe"
+  },
+  "result": {
+    "count": 6,
+    "item": "afc:wood/lumber/ipe"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    },
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/log/tualang"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_log/tualang"
+    },
+    {
+      "item": "arbor_processing:tualang_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

@@ -4,8 +4,8 @@ import com.therighthon.afc.common.blocks.AFCWood;
 import com.thethirdswan.arbor_processing.ArborProcessing;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.minecraftforge.client.model.generators.ItemModelProvider;
+import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ArborProcessingItemModels extends ItemModelProvider {
     public ArborProcessingItemModels(PackOutput output, ExistingFileHelper existingFileHelper) {

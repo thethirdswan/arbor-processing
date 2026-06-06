@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/redcedar"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_wood/cypress"
+    },
+    {
+      "item": "arbor_processing:redcedar_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

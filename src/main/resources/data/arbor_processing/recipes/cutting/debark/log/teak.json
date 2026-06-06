@@ -1,0 +1,23 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "afc:wood/log/teak"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "afc:wood/stripped_log/teak"
+    },
+    {
+      "item": "arbor_processing:teak_bark"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "afc:wood/support/ipe"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 4,
+      "item": "afc:wood/lumber/ipe"
+    },
+    {
+      "count": 2,
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ]
+}

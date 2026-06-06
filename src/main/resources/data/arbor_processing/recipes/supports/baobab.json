@@ -1,0 +1,59 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "tag": "tfc:axes"
+  },
+  "block_in": {
+    "blocks": [
+      "afc:wood/stripped_log/baobab",
+      "afc:wood/stripped_wood/baobab"
+    ]
+  },
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "afc:wood/support/baobab",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.4
+        }
+      ],
+      "count": 1
+    },
+    {
+      "type": "drop_item",
+      "item": "afc:wood/support/baobab",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.8
+        }
+      ],
+      "count": 1
+    },
+    {
+      "type": "place",
+      "block": "minecraft:air",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 0.8
+        }
+      ]
+    },
+    {
+      "type": "damage_item"
+    },
+    {
+      "type": "add_item_cooldown",
+      "contextual": [
+        {
+          "type": "chance",
+          "chance": 1
+        }
+      ],
+      "s": 2
+    }
+  ]
+}

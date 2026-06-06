@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "afc:wood/stripped_wood/cypress"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 3,
+      "item": "afc:wood/support/cypress"
+    },
+    {
+      "count": 2,
+      "item": "tfc_lumberjack:sawdust"
+    }
+  ]
+}

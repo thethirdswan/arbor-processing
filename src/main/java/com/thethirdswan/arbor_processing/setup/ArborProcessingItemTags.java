@@ -1,5 +1,6 @@
 package com.thethirdswan.arbor_processing.setup;
 
+import com.thethirdswan.arbor_processing.ArborProcessing;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
@@ -8,6 +9,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.data.ExistingFileHelper;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -15,16 +17,16 @@ import static com.thethirdswan.arbor_processing.setup.ArborProcessingItems.AP_BA
 import static com.thethirdswan.arbor_processing.setup.ArborProcessingItems.AP_BARK_POWDERS;
 
 public class ArborProcessingItemTags extends ItemTagsProvider {
-    public ArborProcessingItemTags(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, CompletableFuture<TagLookup<Block>> blockTags) {
-        super(output, lookupProvider, blockTags);
+    public ArborProcessingItemTags(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, CompletableFuture<TagLookup<Block>> blockTags, ExistingFileHelper existingFileHelper) {
+        super(output, lookupProvider, blockTags, ArborProcessing.MODID, existingFileHelper);
     }
 
     public static TagKey<Item> TFC_COMPOST_BROWN = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("tfc", "compost_browns"));
     public static TagKey<Item> COMPOST_BROWN_LOW = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("tfc", "compost_browns/low"));
     public static TagKey<Item> FIREPIT_FUEL = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("tfc", "firepit_fuel"));
 
-    public static TagKey<Item> BARK = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("c", "bark"));
-    public static TagKey<Item> BARK_POWDER = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("c", "bark_powder"));
+    public static TagKey<Item> BARK = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("forge", "bark"));
+    public static TagKey<Item> BARK_POWDER = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("forge", "bark_powder"));
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {

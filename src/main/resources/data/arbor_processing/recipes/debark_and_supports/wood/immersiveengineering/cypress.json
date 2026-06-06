@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/wood/cypress"
+  },
+  "result": {
+    "count": 4,
+    "item": "afc:wood/support/cypress"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "arbor_processing:cypress_bark"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "afc:wood/stripped_wood/cypress"
+  }
+}

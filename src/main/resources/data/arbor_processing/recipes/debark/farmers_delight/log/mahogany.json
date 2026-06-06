@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/log/mahogany"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_log/mahogany"
+    },
+    {
+      "item": "arbor_processing:mahogany_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

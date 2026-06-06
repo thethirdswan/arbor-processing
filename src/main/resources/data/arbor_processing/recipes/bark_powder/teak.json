@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "arbor_processing:teak_bark"
+  },
+  "result": {
+    "item": "arbor_processing:teak_bark_powder",
+    "count": 1
+  }
+}

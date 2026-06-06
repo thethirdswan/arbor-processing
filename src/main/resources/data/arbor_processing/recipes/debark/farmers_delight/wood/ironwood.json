@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/ironwood"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_wood/ironwood"
+    },
+    {
+      "item": "arbor_processing:ironwood_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

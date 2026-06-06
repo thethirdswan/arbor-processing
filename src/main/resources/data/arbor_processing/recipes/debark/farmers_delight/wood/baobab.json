@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "afc:wood/wood/baobab"
+    }
+  ],
+  "result": [
+    {
+      "item": "afc:wood/stripped_wood/baobab"
+    },
+    {
+      "item": "arbor_processing:baobab_bark"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
+}

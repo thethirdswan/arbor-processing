@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "afc:wood/wood/ironwood"
+  },
+  "result": {
+    "count": 4,
+    "item": "afc:wood/support/ironwood"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "item": "arbor_processing:ironwood_bark"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:sawdust"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "afc:wood/stripped_wood/ironwood"
+  }
+}
